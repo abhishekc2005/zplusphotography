@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Youtube, Facebook } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Youtube } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Contact() {
@@ -49,7 +49,6 @@ export function Contact() {
               {[
                 { I: Instagram, href: "https://instagram.com/z_plus_photography" },
                 { I: Youtube, href: "https://youtube.com/@zplusphotographybyvinay" },
-                { I: Facebook, href: "#" },
               ].map(({ I, href }, idx) => (
                 <a key={idx} href={href} target="_blank" rel="noreferrer"
                   className="size-12 rounded-full glass grid place-items-center hover:text-gold hover:border-gold/40 transition">
